@@ -14,3 +14,15 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap/scss/bootstrap";
+
+#edit_calendar {
+  display: none;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

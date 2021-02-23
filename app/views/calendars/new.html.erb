@@ -1,2 +1,6 @@
-<h1>Calendars#new</h1>
-<p>Find me in app/views/calendars/new.html.erb</p>
+<div class ="calendar mb-3">
+  <%= form_with model: @calendar do |form| %>
+    <input id ="edit_calendar" type="text" name="calendar[date]" readonly="readonly" >
+    <%= form.submit "送信", class: "btn btn-block btn-primary mt-3" %>
+  <% end %>
+</div>
